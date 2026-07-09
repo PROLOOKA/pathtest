@@ -1,0 +1,8 @@
+FROM flussonic/flussonic:latest
+
+EXPOSE 80
+EXPOSE 1935
+EXPOSE 1936
+EXPOSE 6000/udp
+
+ENV PORT=80
